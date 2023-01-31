@@ -97,4 +97,17 @@
             align-items: center;
         }
     }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
+    .modal {
+        width: 100vw;
+        min-height: 400px;
+        &__close {
+            top: 10px;
+            right: 10px;
+        }
+    }
 }
